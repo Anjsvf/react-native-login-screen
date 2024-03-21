@@ -4,39 +4,41 @@ import * as Animatable from  'react-native-animatable'
 export default function SignIn() {
   return (
     <View style={styles.container}>
- <Animatable.View animation='fadeInLeft' delay={500} style={styles.containerHeader}>
-   <Text style={styles.message}>BEM VINDOS</Text>
- </Animatable.View>
+
+        <Animatable.View animation='fadeInLeft' delay={500} style={styles.containerHeader}>
+          <Text style={styles.message}>SEJA BEM VINDO (A)</Text>
+        </Animatable.View>
+
  <Animatable.View  animation='fadeInUp' style={styles.containerForm}>
-    <Text style={styles.title}>email</Text>
-    <TextInput
-     placeholder='digite seu email'
-     style={styles.input}
-    />
-     <Text style={styles.title}>SENHA</Text>
-    <TextInput
-     placeholder='digite uma sehal'
-     style={styles.input}
-    />
-    <TouchableOpacity style={styles.button}>
-     <Text  style={styles.buttonText} >acesee</Text>
-    </TouchableOpacity>
+      <Text style={styles.title}> Seu Email</Text>
+      <TextInput
+      placeholder='Digite Seu email'
+      style={styles.input}
+      />
+      <Text style={styles.title}>Sua Senha</Text>
+      <TextInput
+      placeholder='Digite sua senaha'
+      style={styles.input}
+      />
+      <TouchableOpacity style={styles.button}>
+      <Text  style={styles.buttonText} >Acesse</Text>
+      </TouchableOpacity>
 
-    <TouchableOpacity style={styles.buttonRegister}>
-     <Text  style={styles.registerText
+      <TouchableOpacity style={styles.buttonRegister}>
+         <Text  style={styles.registerText } >não tem uma conta? cadraste-se Agora</Text>
+       </TouchableOpacity>
     
-    } >naoo tem uma conta cadraste</Text>
-    </TouchableOpacity>
-
- </Animatable.View>
+    </Animatable.View>
     </View>
   )
 }
 
+
+
 const styles = StyleSheet.create({
   container:{
    flex: 1,
-   backgroundColor: 'pink'
+   backgroundColor: '#E01291'
   }, 
   containerHeader:{
     marginTop:14,
@@ -49,7 +51,7 @@ const styles = StyleSheet.create({
     color: 'white'
   },
   containerForm:{
-    backgroundColor:'blue',
+    backgroundColor:'#500B89',
     flex: 1,
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
@@ -59,16 +61,20 @@ const styles = StyleSheet.create({
   title:{
     fontSize: 28,
     marginTop: 28,
+    color: 'white'
 
   },
   input:{
+    color: 'white',
     borderBottomWidth: 1,
     height: 40,
     marginBottom: 12,
-    fontSize: 16
+    fontSize: 16,
+    
+    
   },
   button:{
-    backgroundColor: 'green',
+    backgroundColor: '#C10F7D',
     width: '100%',
     borderRadius: 4,
     paddingVertical: 8,
@@ -86,6 +92,6 @@ const styles = StyleSheet.create({
     alignSelf: 'center'
   },
   registerText:{
-    color: 'gray'
+    color: 'white'
   }
 })

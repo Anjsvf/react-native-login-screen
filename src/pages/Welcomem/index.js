@@ -7,47 +7,48 @@ export default function Welcomem() {
   const navigation = useNavigation()
   return (
     <View style={Styles.container}>
-
-      <View style={Styles.containerLogo}>
-        < Animatable.Image
-        animation="flipInY"
-        source={require('../../assets/logo.png')}
-        style={{width: '100%'}}
-        resizeMode='contain'
-        />
-      </View> 
+        <View style={Styles.containerLogo}>
+                < Animatable.Image
+                  animation="flipInY"
+                  source={require('../../assets/logo.png')}
+                  style={{width: '100%'}}
+                  resizeMode='contain'
+                />
+          </View>     
+      
       <Animatable.View delay={600} animation='fadeInUp' style={Styles.containerForm}>
+        <Text style={Styles.title}> Organize sua vida finaceira De maneira eficiete </Text>
+        <Text style={Styles.text}>Faça já seu login</Text>
 
-        <Text style={Styles.title}> organize sua vida  </Text>
-        <Text style={Styles.text}>faca seu loging</Text>
 
-          <TouchableOpacity
-           style={Styles.button}
-           onPress={( )=> navigation.navigate('Signin')}
-           >
-            
-            <Text style={Styles.buttonText}>acessar</Text>
-          </TouchableOpacity>
-  
+        <TouchableOpacity
+          style={Styles.button}
+          onPress={( )=> navigation.navigate('Signin')}
+                    >
+           <Text style={Styles.buttonText}>Acessar</Text>  
+        </TouchableOpacity>        
+                
+        
       </Animatable.View>
     </View>
   )
-}
+}  
+
 
 const Styles = StyleSheet.create({
   container:{
   flex:1,
-  backgroundColor: "red"
+  backgroundColor: "#C10F7D"
   }, 
   containerLogo:{
     flex:2,
-    backgroundColor: "red",
+    backgroundColor: "#C10F7D",
     justifyContent:"center",
     alignItems:"center"
   },
   containerForm:{
     flex:1,
-    backgroundColor: 'white',
+    backgroundColor: '#500B89',
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
     paddingStart: "5%",
@@ -58,14 +59,15 @@ const Styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginTop: 28,
-    marginBottom: 12
+    marginBottom: 12,
+    color: "white"
   },
   text:{
-   color:"gray"
+   color:"white"
   },
   button:{
     position: 'absolute',
-    backgroundColor:"blue",
+    backgroundColor:"#C10F7D",
     borderRadius: 50,
     paddingVertical: 8,
     width: "60%",
