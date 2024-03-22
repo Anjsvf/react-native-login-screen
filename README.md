@@ -1,3 +1,3 @@
-
-![this is a simple aplication react-native. login-screen](![Screenshot_1711055474](https://github.com/Anjsvf/react-native-login-screen/assets/136652642/b98419d1-fb04-4ac7-ac43-54b8a1411b1b)
-)
+![Screenshot_1711055457](https://github.com/Anjsvf/react-native-login-screen/assets/136652642/d07f58ff-2343-4368-84e7-cf70b85183e4)
+![Screenshot_1711055474](https://github.com/Anjsvf/react-native-login-screen/assets/136652642/ee9b0c96-0942-4694-9d0c-f86217c512bb)
+  THIS IS A SIMPLE APLICATION REACT-NATIVE . LOGIN-SCREEN
