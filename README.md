@@ -1,4 +1,4 @@
-![Screenshot_1711117431](https://github.com/Anjsvf/react-native-login-screen/assets/136652642/175f6556-e86b-4de4-ae59-5257ef8f86b5)<br><br>
-![Screenshot_1711117440](https://github.com/Anjsvf/react-native-login-screen/assets/136652642/66edeb47-de02-4d05-8eb4-5c3334d77637)
+![Screenshot_1711117618](https://github.com/Anjsvf/react-native-login-screen/assets/136652642/469bd7e8-88be-442b-83ee-7dd689b123aa) <br> <br>
+![Screenshot_1711117622](https://github.com/Anjsvf/react-native-login-screen/assets/136652642/04fe1931-4800-4334-89bc-53f4bd172050)
 
   THIS IS A SIMPLE APLICATION REACT-NATIVE + EXPO . LOGIN-SCREEN
